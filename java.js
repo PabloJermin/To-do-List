@@ -176,8 +176,8 @@ function addToLocalStorage(gvale, value){
     
 }
 
-function romoveFromLocalStorage(id){
-  let tems = getLocalstorage();
+function removeFromLocalStorage(id){
+  let tes = getLocalstorage();
 
   let tems = tems.filter(function(ite){
     if( ite!== gig){
